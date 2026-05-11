@@ -53,3 +53,35 @@ https://github.com/mallemjacob/Web_Dev_Class_3
 git branches
 pull requests
 pipelines
+
+# APP.jsx
+
+import './App.css'
+import Form from './Components/Form'
+
+function App() {
+return (
+<>
+
+<Form />
+</>
+)
+}
+
+export default App
+
+# Form.jsx
+
+const Form = () => {
+return (
+<form>
+<label>
+Name:
+<input type='text' />
+</label>
+<input type='submit' value='Submit' />
+</form>
+)
+}
+
+export default Form
