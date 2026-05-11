@@ -54,17 +54,17 @@
 //     })
 // }
 
-// async function getData() {
-//     try {
-//         const data = await fetch('https://jsonplaceholder.typicode.com/todos/1')
-//         const jsonresponse = await data.json()
-//         console.log(jsonresponse)
-//     } catch (error) {
-//         console.log(error)
-//     }
-// }
+async function getData() {
+    try {
+        const data = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+        const jsonresponse = await data.json()
+        console.log(jsonresponse)
+    } catch (error) {
+        console.log(error)
+    }
+}
 
-// getData()
+getData()
 
 // const list = [1, 2, 3]
 // // let l1 = list[0]
