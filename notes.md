@@ -87,8 +87,6 @@ Name:
 
 export default Form
 
-
-
 # Branching strategy (12-05-2026)
 
 1. Claim and Branch
@@ -99,14 +97,12 @@ git checkout main
 git pull origin main
 git checkout -b feature/new-note-button
 
-
 2. Develop and Commit
 
 Write React code for that specific feature. make small, descriptive commits:
 
 git add .
 git commit -m "feat: add plus button to sidebar component"
-
 
 3. Push and PR
 
@@ -120,12 +116,9 @@ review the PR in GitHub
 Leave comments on specific lines of code, suggest optimizations
 If changes are needed, update the branch.
 
-
 5. Merge and Deploy
 
 Once approve the PR, squash and merge it into main. This should automatically trigger GitHub Actions pipeline to build and test the updated app. The feature branch is then deleted to keep the repository clean.
-
-
 
 ---
 
@@ -135,7 +128,3 @@ git checkout feature/delete-notes
 git add .
 git commit -m "fix: corrected the filter logic"
 git push origin feature/delete-notes
-
-
-
-
