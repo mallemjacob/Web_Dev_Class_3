@@ -128,3 +128,12 @@ git checkout feature/delete-notes
 git add .
 git commit -m "fix: corrected the filter logic"
 git push origin feature/delete-notes
+
+## get new changes
+
+git pull origin feature/add-note
+
+## npm commands
+
+npm install
+npm run dev
