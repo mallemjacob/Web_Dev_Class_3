@@ -137,3 +137,29 @@ git pull origin feature/add-note
 
 npm install
 npm run dev
+
+---
+
+## Pull request
+
+### Step-1 (Intern)
+
+1. click the Compare & pull request button for feature/addnote
+2. ensure it says base: main <-- compare: feature/addnote
+3. add a title and description, assigns you as the reviewer, and clicks Create pull request.
+
+### Step-2 (Reviewer)
+
+1. go to the Pull Request on GitHub
+2. Click Approve (leave a nice comment like, "Tested locally, works perfectly!").
+3. Click the big green Merge pull request button.
+4. Click Delete branch (GitHub will offer to delete the feature/addnote branch for you to keep the repository clean).
+
+### Step-3 (Sync Local Machines)
+
+the main branch on GitHub has the new code, but the main branch on your computer doesn't. To get the latest changes, run:
+
+```git
+git checkout main
+git pull origin main
+```

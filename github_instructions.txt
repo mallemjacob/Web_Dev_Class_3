@@ -1,0 +1,81 @@
+git status
+
+
+working directory
+-----------------
+file1.txt
+file2.js
+file3.py
+file4
+file5
+
+Staging area
+------------
+git add App.jsx
+
+
+Local repository
+----------------
+git commit -m "Worked on edit button."
+
+
+Check logs
+-----------
+git log --oneline
+
+
+Push to remote
+---------------
+git push orgin feature/add-note
+
+
+Delete a branch
+----------------
+git branch -d origin/feature/add-not
+
+List branches
+-------------
+git branch -v
+
+Pull request
+------------
+Requesting to merge into main branch
+
+
+Create a new branch
+-------------------
+git checkout -b <branch-name>
+
+
+Rename branch
+-------------
+git branch -m feature/local-storage
+
+git branch -m bugfix/darkmode
+
+
+
+
+Local computer
+--------------
+feature/add-note
+
+
+Push to remote github
+----------------------
+feature/add-note ---> github
+
+Now do pull request (requesting to merge into main branch)
+
+
+
+
+
+
+
+
+
+
+
+
+
